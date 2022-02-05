@@ -6,7 +6,7 @@
   src: local("Arsenal"), url(./assets/fonts/arsenal.ttf) format("truetype");
 }
 html,body{
-  background-color:var(--main-background);
+  background: linear-gradient(var(--main-background2), var(--main-background));
   margin: 0;
   padding: 0;
   height: 100%;
