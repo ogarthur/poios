@@ -1,0 +1,30 @@
+.main{
+.title{
+  font-size: 8rem;
+  font-weight: 500;
+}
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  .title-container{
+    text-align: center;
+    width: 100%;
+
+  }
+  .poio-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-self: flex-end;
+    justify-content: center;
+    width:100%;
+    height: 100vh;
+    .poio{
+      max-width: 10%;
+      margin-bottom: 2rem;
+      align-self: flex-end;
+      cursor:pointer;
+    }
+  }
+}

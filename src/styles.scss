@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import  './animation.scss';
+@import '../src/assets/theme/color.scss';
+
+@font-face {
+  font-family: "Arsenal";
+  src: local("Arsenal"), url(./assets/fonts/arsenal.ttf) format("truetype");
+}
+html,body{
+  background-color:var(--main-background);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Arsenal", Arial, Helvetica, sans-serif;
+}
